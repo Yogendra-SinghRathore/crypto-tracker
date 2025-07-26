@@ -18,7 +18,9 @@ A responsive and real-time cryptocurrency tracker built with React and CoinGecko
 - ✅ Mobile-first responsive design
 
 ## 📸 Screenshots
-(Add some images or screen recordings later)
+![crypto-tracker-Screenshots](https://github.com/Yogendra-SinghRathore/crypto-tracker/blob/main/Screenshot%20(13).png) <!-- Add a real screenshot URL or delete this line -->
+![crypto-tracker-Screenshots](https://github.com/Yogendra-SinghRathore/crypto-tracker/blob/main/Screenshot%20(14).png) <!-- Add a real screenshot URL or delete this line -->
+![crypto-tracker-Screenshots](https://github.com/Yogendra-SinghRathore/crypto-tracker/blob/main/Screenshot%20(15).png) <!-- Add a real screenshot URL or delete this line -->
 
 ## 📦 Setup Instructions
 ```bash
