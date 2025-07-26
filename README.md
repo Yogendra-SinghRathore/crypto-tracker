@@ -22,6 +22,10 @@ A responsive and real-time cryptocurrency tracker built with React and CoinGecko
 ![crypto-tracker-Screenshots](https://github.com/Yogendra-SinghRathore/crypto-tracker/blob/main/Screenshot%20(14).png) <!-- Add a real screenshot URL or delete this line -->
 ![crypto-tracker-Screenshots](https://github.com/Yogendra-SinghRathore/crypto-tracker/blob/main/Screenshot%20(15).png) <!-- Add a real screenshot URL or delete this line -->
 
+## 📸 Demo
+
+[👉 Live Demo on Vercel](https://crypto-tracker-iota-ruby.vercel.app/) <!-- Replace with your deployed link -->
+
 ## 📦 Setup Instructions
 ```bash
 npm install
