@@ -1,12 +1,26 @@
-# React + Vite
+# 🧮 Crypto Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and real-time cryptocurrency tracker built with React and CoinGecko API.
 
-Currently, two official plugins are available:
+## 🔧 Tech Stack
+- React.js
+- Tailwind CSS
+- Chart.js
+- REST API (CoinGecko)
+- React Router v6.4+
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- 🔍 Search and filter coins by name or symbol
+- 📊 Real-time price and market data
+- 🌙 Light/Dark mode toggle
+- ❤️ Add/remove favorites
+- 📈 Historical price charts using Chart.js
+- ✅ Mobile-first responsive design
 
-## Expanding the ESLint configuration
+## 📸 Screenshots
+(Add some images or screen recordings later)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📦 Setup Instructions
+```bash
+npm install
+npm start
