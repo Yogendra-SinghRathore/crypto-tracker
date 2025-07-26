@@ -69,9 +69,9 @@ const CryptoList = ({search,favorites,setFavorites }) => {
                 coin.name.toLowerCase().includes(search.toLowerCase()) || coin.symbol.toLowerCase().includes(search.toLowerCase())
               );
             }).map((coin, index) => (
-              <tr onClick={() => navigate(`/coin/${coin.id}`)} key={coin.id} className="hover:bg-gray-200 transition">
+              <tr onClick={(e) => { e.stopPropagation(); navigate(`/coin/${coin.id}`)} }  key={coin.id} className="hover:bg-gray-200 transition">
                  <td Link className="py-3 px-6 flex items-center gap-3">
-                  <button onClick={() => handleOnclick(coin)}> {isFavorited(coin.id) ? '⭐': '☆'} </button>
+                  <button className='h-6 w-6' onClick={(e) => { e.stopPropagation(); handleOnclick(coin) } }> {isFavorited(coin.id) ? '⭐': '☆'} </button>
                   <span>{index+1}</span>
                   <img src={coin.image} alt={coin.name} className="w-6 h-6" />
                   <div>
